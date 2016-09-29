@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets" id="com.makmak.hyakuninisshu" version="1.0.0">
-  <name>hyakunin-isshu</name>
+  <name>hyakunin-isshuaa</name>
   <description>Made with Monaca (http://monaca.mobi)</description>
   <author/>
   <content src="index.html"/>
@@ -32,12 +32,6 @@
   <preference name="Fullscreen" value="true"/>
   <preference name="monaca:targetFamilyiPhone" value="1"/>
   <preference name="monaca:targetFamilyiPad" value="1"/>
-  <preference name="AutoHideSplashScreen" value="true"/>
-  <preference name="FadeSplashScreen" value="true"/>
-  <preference name="ShowSplashScreenSpinner" value="false"/>
-  <access origin="*"/>
-  <preference name="DisallowOverscroll" value="true"/>
-  <preference name="EnableViewportScale" value="true"/>
   <allow-intent href="itms:*"/>
   <allow-intent href="itms-apps:*"/>
   <allow-navigation href="*"/>
@@ -99,6 +93,13 @@
   <platform name="chrome">
     <icon src="/platforms/chrome/icon.png" width="128" height="128"/>
   </platform>
+  <preference name="ios-XCBuildConfiguration-TARGETED_DEVICE_FAMILY" value="1,2"/>
+  <preference name="AutoHideSplashScreen" value="true"/>
+  <preference name="FadeSplashScreen" value="true"/>
+  <preference name="ShowSplashScreenSpinner" value="false"/>
+  <access origin="*"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="EnableViewportScale" value="true"/>
   <preference name="WindowsStorePublisherName" value="My Name"/>
   <preference name="WindowsStoreIdentityName" value="8f5a52b8-1bbd-ef1f-d71c-278a7c9fb474"/>
 </widget>
